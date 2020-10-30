@@ -7,7 +7,7 @@
   "keywords": [],
   "autoload": {
     "psr-4": {
-      "COL\\Library\\Contracts": "src/"
+      "COL\\Library\\Contracts\\": "src/"
     }
   },
   "require": {
