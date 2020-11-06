@@ -8,6 +8,6 @@ final class GetOneReferenceEquipmentViewModel implements BaseViewModelInterface
 {
     public string $name;
     public string $canonicalName;
-    private string $image;
-    private array $shops;
+    public string $image;
+    public array $shops;
 }

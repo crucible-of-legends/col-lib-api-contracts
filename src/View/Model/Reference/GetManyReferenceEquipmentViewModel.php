@@ -8,5 +8,5 @@ final class GetManyReferenceEquipmentViewModel implements BaseViewModelInterface
 {
     public string $name;
     public string $canonicalName;
-    private string $image;
+    public string $image;
 }
