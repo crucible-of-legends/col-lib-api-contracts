@@ -1,6 +1,6 @@
 <?php
 
-namespace COL\Library\Contracts\View\Model\Reference;
+namespace COL\Library\Contracts\View\Model\Reference\ReferenceEquipment;
 
 use COL\Library\Contracts\View\Model\BaseViewModelInterface;
 
