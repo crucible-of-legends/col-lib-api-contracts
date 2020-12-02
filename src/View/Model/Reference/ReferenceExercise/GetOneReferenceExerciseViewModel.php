@@ -9,5 +9,6 @@ final class GetOneReferenceExerciseViewModel implements BaseViewModelInterface
     public string $name;
     public string $canonicalName;
     public string $image;
-    public array $shops;
+    public array $equipments;
+    public array $muscles;
 }
