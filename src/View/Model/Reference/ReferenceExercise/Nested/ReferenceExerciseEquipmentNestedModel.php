@@ -6,4 +6,5 @@ final class ReferenceExerciseEquipmentNestedModel
 {
     public string $name;
     public string $canonicalName;
+    public string $image;
 }
