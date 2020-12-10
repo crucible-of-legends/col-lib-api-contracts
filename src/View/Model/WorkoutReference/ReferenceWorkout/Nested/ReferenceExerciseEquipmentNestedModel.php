@@ -1,6 +1,6 @@
 <?php
 
-namespace COL\Library\Contracts\View\Model\Reference\ReferenceExercise\Nested;
+namespace COL\Library\Contracts\View\Model\WorkoutReference\ReferenceWorkout\Nested;
 
 final class ReferenceExerciseEquipmentNestedModel
 {
