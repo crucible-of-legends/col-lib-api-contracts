@@ -9,5 +9,7 @@ final class GetOneUserWorkoutViewModel implements BaseViewModelInterface
     public string $name;
     public string $canonicalName;
     public string $image;
+    public ?string $programmedDate;
+    public ?string $completedDate;
     public array $orderedExercises;
 }
