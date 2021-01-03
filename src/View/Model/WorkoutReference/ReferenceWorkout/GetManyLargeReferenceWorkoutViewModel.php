@@ -3,14 +3,14 @@
 namespace COL\Library\Contracts\View\Model\WorkoutReference\ReferenceWorkout;
 
 use COL\Library\Contracts\View\Model\BaseViewModelInterface;
-use COL\Library\Contracts\View\Model\WorkoutReference\ReferenceWorkout\Nested\ReferenceExerciseInOneWorkoutNestedModel;
+use COL\Library\Contracts\View\Model\WorkoutReference\ReferenceWorkout\Nested\ReferenceExerciseInManyWorkoutNestedModel;
 
-final class GetOneReferenceWorkoutViewModel implements BaseViewModelInterface
+final class GetManyLargeReferenceWorkoutViewModel implements BaseViewModelInterface
 {
     public string $name;
     public string $canonicalName;
     public string $image;
 
-    /** @var ReferenceExerciseInOneWorkoutNestedModel[]  */
+    /** @var ReferenceExerciseInManyWorkoutNestedModel[] */
     public array $orderedExercises;
 }
