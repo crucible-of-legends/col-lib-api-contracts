@@ -10,6 +10,7 @@ final class GetManyLargeUserWorkoutViewModel implements BaseViewModelInterface
     public string $id;
     public string $name;
     public string $image;
+    public string $visibility;
     public ?string $programmedDate;
     public ?string $completedDate;
 
