@@ -7,6 +7,7 @@ final class UserExerciseInWorkoutNestedModel
     public string $id;
     public string $name;
     public string $image;
+    public string $status;
     public int $position;
     public int $referenceExerciseId;
 
