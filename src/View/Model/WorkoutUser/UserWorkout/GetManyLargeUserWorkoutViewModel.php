@@ -1,9 +1,9 @@
 <?php
 
-namespace COL\Library\Contracts\View\Model\WorkoutReference\ReferenceWorkout;
+namespace COL\Library\Contracts\View\Model\WorkoutUser\UserWorkout;
 
 use COL\Library\Contracts\View\Model\BaseViewModelInterface;
-use COL\Library\Contracts\View\Model\WorkoutReference\ReferenceWorkout\Nested\ReferenceExerciseInManyWorkoutNestedModel;
+use COL\Library\Contracts\View\Model\WorkoutUser\UserWorkout\Nested\UserExerciseInWorkoutNestedModel;
 
 final class GetManyLargeUserWorkoutViewModel implements BaseViewModelInterface
 {
@@ -14,5 +14,6 @@ final class GetManyLargeUserWorkoutViewModel implements BaseViewModelInterface
     public ?string $programmedDate;
     public ?string $completedDate;
 
+    /** @var UserExerciseInWorkoutNestedModel[]  */
     public array $orderedExercises;
 }
