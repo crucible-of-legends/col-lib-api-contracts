@@ -8,7 +8,7 @@ use COL\Library\Contracts\View\Model\BaseViewModelInterface;
 
 final class SingleViewModelWrapper implements ViewModelWrapperInterface
 {
-    public BaseViewModelInterface $data;
+    public ?BaseViewModelInterface $data;
     public ?ErrorViewDecor $error;
     public ?NavigationViewDecor $navigation;
 }
