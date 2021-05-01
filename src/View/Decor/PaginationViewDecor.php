@@ -2,7 +2,7 @@
 
 namespace COL\Library\Contracts\View\Decor;
 
-final class PaginationViewDecor
+final class PaginationViewDecor implements ViewDecorInterface
 {
     public int $totalObjects;
     public int $currentPageNumber;
