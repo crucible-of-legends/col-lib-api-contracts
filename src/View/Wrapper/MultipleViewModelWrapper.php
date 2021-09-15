@@ -9,7 +9,7 @@ final class MultipleViewModelWrapper extends AbstractViewModelWrapper
 {
     /** @var BaseViewModelInterface[] */
     public array $data;
-    public array $context;
+    public array $context = [];
 
     public ?PaginationViewDecor $pagination;
 }
