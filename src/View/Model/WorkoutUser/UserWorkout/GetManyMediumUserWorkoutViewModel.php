@@ -1,6 +1,6 @@
 <?php
 
-namespace COL\Library\Contracts\View\Model\WorkoutUser\UserWorkout;
+namespace COL\Library\ApiContracts\View\Model\WorkoutUser\UserWorkout;
 
 use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Model\ViewModelInterface;
 

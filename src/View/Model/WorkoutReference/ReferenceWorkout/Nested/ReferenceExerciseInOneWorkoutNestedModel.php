@@ -1,6 +1,6 @@
 <?php
 
-namespace COL\Library\Contracts\View\Model\WorkoutReference\ReferenceWorkout\Nested;
+namespace COL\Library\ApiContracts\View\Model\WorkoutReference\ReferenceWorkout\Nested;
 
 final class ReferenceExerciseInOneWorkoutNestedModel
 {

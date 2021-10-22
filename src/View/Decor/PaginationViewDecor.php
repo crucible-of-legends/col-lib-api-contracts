@@ -1,6 +1,6 @@
 <?php
 
-namespace COL\Library\Contracts\View\Decor;
+namespace COL\Library\ApiContracts\View\Decor;
 
 use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Decor\ViewDecorInterface;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace COL\Library\Contracts\InputModel\UserWorkout;
+namespace COL\Library\ApiContracts\InputModel\UserWorkout;
 
 use COL\Librairy\BaseContracts\Domain\DataInteractor\InputModel\InputModelInterface;
 use DateTimeInterface;

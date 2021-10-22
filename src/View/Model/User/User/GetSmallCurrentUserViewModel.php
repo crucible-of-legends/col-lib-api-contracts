@@ -1,6 +1,6 @@
 <?php
 
-namespace COL\Library\Contracts\View\Model\User\User;
+namespace COL\Library\ApiContracts\View\Model\User\User;
 
 use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Model\ViewModelInterface;
 

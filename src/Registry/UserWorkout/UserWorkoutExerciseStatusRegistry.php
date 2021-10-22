@@ -1,6 +1,6 @@
 <?php
 
-namespace COL\Library\Contracts\Registry\UserWorkout;
+namespace COL\Library\ApiContracts\Registry\UserWorkout;
 
 interface UserWorkoutExerciseStatusRegistry
 {

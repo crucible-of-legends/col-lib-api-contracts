@@ -1,6 +1,6 @@
 <?php
 
-namespace COL\Library\Contracts\View\Model\WorkoutReference\ReferenceExercise;
+namespace COL\Library\ApiContracts\View\Model\WorkoutReference\ReferenceExercise;
 
 use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Model\ViewModelInterface;
 

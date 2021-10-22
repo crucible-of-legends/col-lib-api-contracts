@@ -1,9 +1,9 @@
 <?php
 
-namespace COL\Library\Contracts\View\Wrapper;
+namespace COL\Library\ApiContracts\View\Wrapper;
 
-use COL\Library\Contracts\View\Decor\ErrorViewDecor;
-use COL\Library\Contracts\View\Decor\NavigationViewDecor;
+use COL\Library\ApiContracts\View\Decor\ErrorViewDecor;
+use COL\Library\ApiContracts\View\Decor\NavigationViewDecor;
 
 abstract class AbstractViewModelWrapper
 {

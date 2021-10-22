@@ -1,6 +1,6 @@
 <?php
 
-namespace COL\Library\Contracts\View\Model\WorkoutUser\UserWorkout\Nested;
+namespace COL\Library\ApiContracts\View\Model\WorkoutUser\UserWorkout\Nested;
 
 final class UserExerciseInWorkoutNestedModel
 {
