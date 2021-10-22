@@ -2,10 +2,11 @@
 
 namespace COL\Library\Contracts\View\Wrapper;
 
-use COL\Library\Contracts\View\Model\BaseViewModelInterface;
+use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Model\ViewModelInterface;
+use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Wrapper\SingleViewModelWrapperInterface;
 
-final class SingleViewModelWrapper extends AbstractViewModelWrapper
+final class SingleViewModelWrapper extends AbstractViewModelWrapper implements SingleViewModelWrapperInterface
 {
-    public ?BaseViewModelInterface $data;
+    public ?ViewModelInterface $data;
     public array $context = [];
 }

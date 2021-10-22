@@ -2,9 +2,9 @@
 
 namespace COL\Library\Contracts\View\Model\WorkoutReference\ReferenceWorkout;
 
-use COL\Library\Contracts\View\Model\BaseViewModelInterface;
+use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Model\ViewModelInterface;
 
-final class GetManyMediumReferenceWorkoutViewModel implements BaseViewModelInterface
+final class GetManyMediumReferenceWorkoutViewModel implements ViewModelInterface
 {
     public string $name;
     public string $canonicalName;

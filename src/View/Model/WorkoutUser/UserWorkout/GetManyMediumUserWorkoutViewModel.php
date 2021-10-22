@@ -2,9 +2,9 @@
 
 namespace COL\Library\Contracts\View\Model\WorkoutUser\UserWorkout;
 
-use COL\Library\Contracts\View\Model\BaseViewModelInterface;
+use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Model\ViewModelInterface;
 
-final class GetManyMediumUserWorkoutViewModel implements BaseViewModelInterface
+final class GetManyMediumUserWorkoutViewModel implements ViewModelInterface
 {
     public string $id;
     public string $name;

@@ -2,12 +2,13 @@
 
 namespace COL\Library\Contracts\View\Wrapper;
 
+use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Model\ViewModelInterface;
+use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Wrapper\MultipleViewModelWrapperInterface;
 use COL\Library\Contracts\View\Decor\PaginationViewDecor;
-use COL\Library\Contracts\View\Model\BaseViewModelInterface;
 
-final class MultipleViewModelWrapper extends AbstractViewModelWrapper
+final class MultipleViewModelWrapper extends AbstractViewModelWrapper implements MultipleViewModelWrapperInterface
 {
-    /** @var BaseViewModelInterface[] */
+    /** @var ViewModelInterface[] */
     public array $data;
     public array $context = [];
 

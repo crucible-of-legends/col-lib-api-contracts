@@ -2,9 +2,9 @@
 
 namespace COL\Library\Contracts\View\Model\User\User;
 
-use COL\Library\Contracts\View\Model\BaseViewModelInterface;
+use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Model\ViewModelInterface;
 
-final class GetSmallCurrentUserViewModel implements BaseViewModelInterface
+final class GetSmallCurrentUserViewModel implements ViewModelInterface
 {
     public string $username;
     public string $canonicalUsername;

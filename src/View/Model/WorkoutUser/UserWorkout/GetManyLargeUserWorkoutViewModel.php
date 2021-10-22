@@ -2,10 +2,10 @@
 
 namespace COL\Library\Contracts\View\Model\WorkoutUser\UserWorkout;
 
-use COL\Library\Contracts\View\Model\BaseViewModelInterface;
+use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Model\ViewModelInterface;
 use COL\Library\Contracts\View\Model\WorkoutUser\UserWorkout\Nested\UserExerciseInWorkoutNestedModel;
 
-final class GetManyLargeUserWorkoutViewModel implements BaseViewModelInterface
+final class GetManyLargeUserWorkoutViewModel implements ViewModelInterface
 {
     public string $id;
     public string $name;

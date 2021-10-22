@@ -2,10 +2,10 @@
 
 namespace COL\Library\Contracts\View\Model\WorkoutReference\ReferenceWorkout;
 
-use COL\Library\Contracts\View\Model\BaseViewModelInterface;
+use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Model\ViewModelInterface;
 use COL\Library\Contracts\View\Model\WorkoutReference\ReferenceWorkout\Nested\ReferenceExerciseInManyWorkoutNestedModel;
 
-final class GetManyLargeReferenceWorkoutViewModel implements BaseViewModelInterface
+final class GetManyLargeReferenceWorkoutViewModel implements ViewModelInterface
 {
     public string $name;
     public string $canonicalName;

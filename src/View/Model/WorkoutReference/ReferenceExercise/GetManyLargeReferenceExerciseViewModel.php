@@ -2,9 +2,9 @@
 
 namespace COL\Library\Contracts\View\Model\WorkoutReference\ReferenceExercise;
 
-use COL\Library\Contracts\View\Model\BaseViewModelInterface;
+use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Model\ViewModelInterface;
 
-final class GetManyLargeReferenceExerciseViewModel implements BaseViewModelInterface
+final class GetManyLargeReferenceExerciseViewModel implements ViewModelInterface
 {
     public string $name;
     public string $canonicalName;
