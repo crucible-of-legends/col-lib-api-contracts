@@ -14,6 +14,6 @@ final class GetManyLargeUserWorkoutViewModel implements ViewModelInterface
     public ?string $programmedDate;
     public ?string $completedDate;
 
-    /** @var UserExerciseInWorkoutNestedModel[]  */
+    /** @var UserExerciseInWorkoutNestedModel[] */
     public array $orderedExercises;
 }

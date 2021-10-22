@@ -11,6 +11,6 @@ final class GetOneReferenceWorkoutViewModel implements ViewModelInterface
     public string $canonicalName;
     public string $image;
 
-    /** @var ReferenceExerciseInOneWorkoutNestedModel[]  */
+    /** @var ReferenceExerciseInOneWorkoutNestedModel[] */
     public array $orderedExercises;
 }
