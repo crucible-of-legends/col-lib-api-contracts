@@ -2,7 +2,7 @@
 
 namespace COL\Library\ApiContracts\View\Model\WorkoutUser\UserWorkout;
 
-use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Model\ViewModelInterface;
+use COL\Librairy\BaseContracts\Domain\View\Model\ViewModelInterface;
 
 final class GetManyMediumUserWorkoutViewModel implements ViewModelInterface
 {

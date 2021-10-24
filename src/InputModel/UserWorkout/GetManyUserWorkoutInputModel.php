@@ -2,7 +2,7 @@
 
 namespace COL\Library\ApiContracts\InputModel\UserWorkout;
 
-use COL\Librairy\BaseContracts\Domain\DataInteractor\InputModel\InputModelInterface;
+use COL\Librairy\BaseContracts\Domain\InputModel\InputModelInterface;
 
 final class GetManyUserWorkoutInputModel implements InputModelInterface
 {

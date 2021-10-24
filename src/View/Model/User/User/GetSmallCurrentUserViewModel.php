@@ -2,7 +2,7 @@
 
 namespace COL\Library\ApiContracts\View\Model\User\User;
 
-use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Model\ViewModelInterface;
+use COL\Librairy\BaseContracts\Domain\View\Model\ViewModelInterface;
 
 final class GetSmallCurrentUserViewModel implements ViewModelInterface
 {

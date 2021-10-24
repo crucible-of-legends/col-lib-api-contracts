@@ -2,7 +2,7 @@
 
 namespace COL\Library\ApiContracts\View\Model\WorkoutUser\UserWorkout;
 
-use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Model\ViewModelInterface;
+use COL\Librairy\BaseContracts\Domain\View\Model\ViewModelInterface;
 use COL\Library\ApiContracts\View\Model\WorkoutUser\UserWorkout\Nested\UserExerciseInWorkoutNestedModel;
 
 final class GetManyLargeUserWorkoutViewModel implements ViewModelInterface

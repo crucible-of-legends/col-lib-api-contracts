@@ -2,7 +2,7 @@
 
 namespace COL\Library\ApiContracts\View\Decor;
 
-use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Decor\ViewDecorInterface;
+use COL\Librairy\BaseContracts\Domain\View\Decor\ViewDecorInterface;
 
 final class ErrorViewDecor implements ViewDecorInterface
 {

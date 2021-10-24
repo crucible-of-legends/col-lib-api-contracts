@@ -2,7 +2,9 @@
 
 namespace COL\Library\ApiContracts\Registry\UserWorkout;
 
-interface UserWorkoutStatusRegistry
+use COL\Librairy\BaseContracts\Domain\Registry\DTOStatusRegistry;
+
+interface UserWorkoutStatusRegistry extends DTOStatusRegistry
 {
     public const STATUS_PLANNED = 'planned';
     public const STATUS_IN_PROGRESS = 'in-progress';

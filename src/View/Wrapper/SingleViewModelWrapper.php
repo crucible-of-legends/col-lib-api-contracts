@@ -2,8 +2,8 @@
 
 namespace COL\Library\ApiContracts\View\Wrapper;
 
-use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Model\ViewModelInterface;
-use COL\Librairy\BaseContracts\Domain\DataInteractor\View\Wrapper\SingleViewModelWrapperInterface;
+use COL\Librairy\BaseContracts\Domain\View\Model\ViewModelInterface;
+use COL\Librairy\BaseContracts\Domain\View\Wrapper\SingleViewModelWrapperInterface;
 
 final class SingleViewModelWrapper extends AbstractViewModelWrapper implements SingleViewModelWrapperInterface
 {
